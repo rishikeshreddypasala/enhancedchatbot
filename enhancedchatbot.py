@@ -3,7 +3,7 @@ name = input("enter your name: ")
 
 while True:
     
-    mood = input("how are you feeling: ")
+    mood = input("how are you feeling: ").lower()
 
     if mood == "good":
         print("very good to hear")
@@ -15,9 +15,10 @@ while True:
     hobbies = input("what are your hobbies: ")
 
     
-    choice = input("do you want to continue: ")
+    choice = input("do you want to continue: ").lower()
     
     if choice != "yes":
         break  
+
 
 print("thanks have a good day.")
